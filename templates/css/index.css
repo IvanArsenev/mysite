@@ -1,0 +1,34 @@
+#all{
+    background-color: black;
+    border-radius: 3rem;
+    margin-left: 5rem;
+}
+#hi{
+    text-align: center;
+    color: white;
+}
+#aboutme{
+    text-align: center;
+    color: white;
+}
+#aboutsite{
+    text-align: center;
+    color: white;
+}
+#btn{
+    text-align: center;
+}
+#cat{
+    color: black;
+    border-radius: 3rem;
+}
+#cat:hover{
+    color: rgba(255, 255, 255, 0);
+}
+#imgcat{
+    width: auto;
+}
+#cattext{
+    text-align: center;
+    color: white;
+}

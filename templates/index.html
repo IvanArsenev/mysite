@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+    <style type="text/css">
+        #all{
+            background-color: black;
+            border-radius: 3rem;
+            margin-left: 5rem;
+        }
+        #hi{
+            text-align: center;
+            color: white;
+        }
+        #aboutme{
+            text-align: center;
+            color: white;
+        }
+        #aboutsite{
+            text-align: center;
+            color: white;
+        }
+        #btn{
+            text-align: center;
+            margin-left: 56rem;
+            margin-bottom: 2rem;
+        }
+        #cat{
+            border-radius: 3rem;
+            margin-left: auto;
+        }
+        #imgcat{
+            width: auto;
+            margin-left: 37rem;
+            opacity: 0;
+            margin-bottom: 3rem;
+            transition: 2s;
+            border:1px solid white;
+        }
+        #imgcat:hover{
+            opacity: 1;
+            transition: 2s;
+        }
+        #cattext{
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="all">
+        <h1 id="hi">Hello world!</h1>
+        <h3 id="aboutme">My name is Ivan arsenev and I'm web-developer!</h3>
+        <h3 id="aboutsite">On this web-site you can vote! (:</h3>
+        <a class="btn btn-primary" href="{% url 'polls:index' %}" role="button" id="btn">Go vote!</a>
+        <div id="cat">
+            <h2 id="cattext">↓This is cat↓</h2>
+            <img src="https://image.slidesharecdn.com/funnycatvideosdownload-150901043709-lva1-app6892/95/funny-cat-videos-download-1-638.jpg?cb=1441082273" id="imgcat">
+        </div>
+    </div>
+</body>
+</html>
